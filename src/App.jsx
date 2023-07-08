@@ -17,7 +17,11 @@ export function App() {
           <label htmlFor="password">Mot de passe</label>
           <input type="password" name="password" id="password" placeholder="**************"/>
         </div>
-        <div></div>
+       <a href="">Mot de passe oublié ?</a>
+       <button className="button">Se connecter <img src=""/></button>
+       <div className="footer">
+        <p>Vous n’avez pas de compte ? <a href="">Créer un compte</a></p>
+       </div>
       </form>
     </div>
   )
