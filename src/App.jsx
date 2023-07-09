@@ -1,3 +1,4 @@
+import logo from './assets/Dark.svg'
 export function App() {
 
   /* YARN DEV */
@@ -5,7 +6,7 @@ export function App() {
   return (
     <div className="container">
       <header>
-        <img src="" alt="" />
+        <img src={logo} alt="Workflow" />
         <span>Merci d'entrer vos informations de connexion</span>
       </header>
       <form>
