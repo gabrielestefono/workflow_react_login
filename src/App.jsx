@@ -1,8 +1,10 @@
-import logo from './assets/Dark.svg'
+import logo from './assets/Dark.svg';
+import './global.css';
+
+
+
+
 export function App() {
-
-  /* YARN DEV */
-
   return (
     <div className="container">
       <header>
