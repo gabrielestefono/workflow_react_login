@@ -33,3 +33,35 @@ html, body{
     font-size: 1.25rem;
     line-height: 1.5rem;
 }
+
+.container form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form .inputContainer{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.container form .inputContainer label{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    margin-bottom: .5rem;
+}
+
+.container form .inputContainer input{
+    display: flex;
+    align-items: flex-start;
+    padding: 1rem;
+    width: 32.5rem;
+    height: 3.0625rem;
+    border: 1px solid #5C73DB;
+    border-radius: .75rem;
+    margin-bottom: .75rem;
+    outline: none;
+}
+
