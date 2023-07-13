@@ -65,3 +65,24 @@ html, body{
     outline: none;
 }
 
+.container form a{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: #5C73DB;
+}
+
+.container form .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 8px;
+    width: 32.5rem;
+    height: 3rem;
+    background-color: #4763e4;
+    border-radius: .75rem;
+    border: none;
+    color: white;
+}
